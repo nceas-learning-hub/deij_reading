@@ -5,8 +5,8 @@ author: "Nicole Greco"
 date: 2026-07-21
 categories:
   - collaboration
-  - STEM Education
-  - Workplace Culture
+  - bias
+  - management
 image: images/coproduction_collaboration1.webp
 ---
 
@@ -21,7 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim nunc
 :::panel-tabset
 ### What did we know before?
 
-**What did we know about this topic before we read the paper?**
+** {{< fa question >}} What did we know about this topic before we read the paper?**
 
 Morbi eu malesuada velit. Maecenas ullamcorper nisi at urna imperdiet euismod et ac tellus. Curabitur sit amet mi feugiat, tempus metus at, dapibus ex. Curabitur ultricies euismod imperdiet. Donec facilisis convallis pellentesque. Pellentesque commodo a orci ut commodo. Nulla maximus ut mauris quis elementum. In convallis massa et arcu suscipit, vel tristique metus ornare.
 
@@ -37,7 +37,7 @@ Vestibulum ut odio diam. Nulla hendrerit lacinia justo non interdum. Nullam euis
 
 ### Constructive Feedback
 
-**What constructive feedback would we have for the author? What do we think is missing from the article?**
+** {{< fa message >}} What constructive feedback would we have for the author? What do we think is missing from the article?**
 
 Praesent sit amet euismod est. Quisque efficitur turpis commodo lacus lobortis malesuada. Aliquam in lectus lorem. Aliquam eros dolor, volutpat nec erat et, malesuada accumsan massa. Vestibulum eget mattis diam. Pellentesque non nisi elit. Donec a suscipit odio.
 

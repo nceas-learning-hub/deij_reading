@@ -14,14 +14,10 @@ website:
         text: home
       - href: readings.qmd
         text: readings
-      - text: about
-        menu:
-          - text: "About This Site"
-            href: "https://www.example.com"
-          - text: "Contact"
-            href: "mailto:your-email@example.com"
+      - href: blog.qmd
+        text: blog
       - icon: github
-        href: https://github.com/your-username/deij_reading
+        href: https://github.com/nceas/deij_reading
         target: _blank
   page-footer:
     background: light
@@ -33,7 +29,10 @@ format:
     page-layout: full
     sidebar: false
     theme:
-      - styles.scss
+      light: styles-light.scss
+      dark:  styles-dark.scss
     mainfont: Nunito
     toc: false
     toc-depth: 2
+    link-external-newwindow: true ### sets {target = "_blank"} for external links
+    link-external-icon: true      ### adds icon to external links

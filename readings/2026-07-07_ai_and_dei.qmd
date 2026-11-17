@@ -1,6 +1,6 @@
 ---
-title: "AI and DEI"
-description: "AI usage to further DEIJ: bright future or bad idea?"
+title: "{{< fa robot >}} AI and DEI"
+description: "AI usage {{< fa computer >}} to further DEIJ: bright future or bad idea?"
 author: "Jonathan Rodemann"
 date: 2026-07-07
 categories: 

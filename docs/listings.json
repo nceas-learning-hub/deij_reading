@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/blog.html",
+    "items": [
+      "/blog_posts/2026-10-13_property_rights.html",
+      "/blog_posts/2026-07-21_coproduction_and_collaboration.html",
+      "/blog_posts/2026-07-07_ai_and_dei.html"
+    ]
+  },
+  {
     "listing": "/readings.html",
     "items": [
       "/readings/2026-10-13_property_rights.html",

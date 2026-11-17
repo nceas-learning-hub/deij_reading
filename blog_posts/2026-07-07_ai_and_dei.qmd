@@ -1,0 +1,38 @@
+---
+title: "AI and DEI"
+description: "AI usage to further DEIJ: bright future or bad idea?"
+author: "Jonathan Rodemann"
+date: 2026-07-07
+categories: 
+  - AI
+  - Bias
+  - Data Privacy
+image: images/ai_deij1.png
+---
+
+## Overview
+
+* **Reading 1:** ["The Intersection of AI and DEI: Risks, Opportunities, and Best Practices"](https://www.techclass.com/resources/learning-and-development-articles/intersection-of-ai-and-dei-risks-opportunities-best-practices)
+* **Reading 2:** ["Can artificial intelligence bridge the diversity, equity, and inclusion gap for
+a sustainable future? A PRISMA systematic review"](https://drive.google.com/file/d/1s_16l_j9G1kzrO436jxGtmLViu2hA2D9/view?usp=sharing)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim nunc nibh, sed lacinia felis tincidunt vitae. Aliquam et felis nunc. Maecenas imperdiet est sit amet lacus lobortis pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum pharetra rhoncus ipsum, at elementum dolor convallis sit amet. Pellentesque et elementum enim, nec pharetra felis. Nulla ultricies facilisis tincidunt. Nam efficitur commodo eros, ac mollis urna suscipit eu. Curabitur faucibus elit mauris, ultricies iaculis libero vestibulum id. Curabitur at rutrum elit. Morbi lectus velit, scelerisque ac iaculis consectetur, aliquet eu ipsum. Morbi tincidunt id nisl sed cursus.
+
+## Format option 1: standard headers
+
+### What did we know about this topic before we read the paper?
+
+Morbi eu malesuada velit. Maecenas ullamcorper nisi at urna imperdiet euismod et ac tellus. Curabitur sit amet mi feugiat, tempus metus at, dapibus ex. Curabitur ultricies euismod imperdiet. Donec facilisis convallis pellentesque. Pellentesque commodo a orci ut commodo. Nulla maximus ut mauris quis elementum. In convallis massa et arcu suscipit, vel tristique metus ornare.
+
+### What about this article was insightful? What was an “aha!” idea?
+
+Vestibulum ut odio diam. Nulla hendrerit lacinia justo non interdum. Nullam euismod volutpat nisl, hendrerit dignissim turpis vestibulum quis. Quisque tristique facilisis justo a dignissim. Vestibulum feugiat leo nec fermentum feugiat. Duis commodo risus in ullamcorper lacinia. 
+
+* Integer eu vestibulum massa, quis egestas ex. Ut et ipsum ac velit tempor aliquam quis eget magna. Quisque interdum ex eget urna dapibus ullamcorper. 
+* In feugiat est scelerisque ante elementum consectetur. Morbi diam odio, condimentum non dignissim ut, fringilla eu eros. Cras blandit urna libero, et ultrices nulla convallis ut. 
+* Pellentesque vel diam nec diam blandit bibendum. Mauris dapibus quam erat, a scelerisque lorem ultricies vel. Nam sodales ex sed tempor sagittis.
+
+### What constructive feedback would we have for the author? What do we think is missing from the article?
+
+Praesent sit amet euismod est. Quisque efficitur turpis commodo lacus lobortis malesuada. Aliquam in lectus lorem. Aliquam eros dolor, volutpat nec erat et, malesuada accumsan massa. Vestibulum eget mattis diam. Pellentesque non nisi elit. Donec a suscipit odio.
+

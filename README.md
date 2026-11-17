@@ -4,33 +4,34 @@ A curated collection of resources on diversity, equity, inclusion, and justice (
 
 ## About
 
-This reading list brings together articles, books, reports, and other resources focused on creating more inclusive and equitable scientific communities. Each reading includes:
-
-- A brief summary of key themes
-- Relevant category tags for browsing
-- Discussion prompts for deeper engagement
-- Links to original materials
+This reading list is an effort by the NCEAS DEIJ team to explore ideas of diversity, equity, inclusion, and justice in our conservation science.  A member suggests a reading and leads a discussion on the topic.  The pages here include a link ot the reading, and some reflections on how the reading influenced our thoughts and actions.
 
 ## Site Structure
 
 ```
 deij_reading/
-├── index.qmd           # Home/about page
-├── readings.qmd        # Readings listing page
-├── readings/           # Individual reading articles
-│   ├── reading-01-*.qmd
-│   ├── reading-02-*.qmd
-│   └── reading-03-*.qmd
-├── images/             # Images for readings and site
-│   ├── logos/          # Logo files
-│   └── reading-*.png   # Reading cover images
-├── styles.scss         # Custom site styling
-└── _quarto.yml         # Quarto configuration
+├── _quarto.yml                         # Quarto configuration
+├── styles.scss                         # Custom site styling
+├── index.qmd                           # Home/About page
+├── readings.qmd                        # Readings listing page
+├── readings/                           # Individual reading articles
+│   ├── yyyy-mm-dd_reading_title_1.qmd
+│   ├── yyyy-mm-dd_reading_title_2.qmd
+│   └── yyyy-mm-dd_reading_title_3.qmd
+│   └── images/                         # Images and media
+│       ├── reading1_pic.png            # Cover image for reading 1
+│       ├── reading2_photo.jpg          # Cover image for reading 2
+│       └── image_reading3.png          # Cover image for reading 3
+├── images/                             # Images and media
+│   ├── nceas-logo.svg                  # Site logo in banner
+│   └── other_image_for_pages.png       # image to go on one of the pages
+└── docs/                               # Generated HTML (created by Quarto render)
+    ├── <built with quarto render>
 ```
 
 ## Styling
 
-This site uses a custom color palette inspired by the NCEAS Learning Hub theme:
+Update in styles.scss
 
 - **Primary Green**: #167B62 (medium green)
 - **Dark Green**: #0C4537 (navbar/header)
@@ -68,7 +69,7 @@ To add a new reading:
    - `categories`: Topic categories (use existing ones or add new)
    - `image`: Path to cover image
 
-3. Add content including discussion prompts
+3. Add content from Nick's template
 4. Run `quarto render` to update the site
 
 ## Contributing
@@ -77,17 +78,11 @@ Suggestions and contributions are welcome! To suggest a reading or contribute co
 
 - Open an issue with your suggestion
 - Include the reading title, link, and why you think it fits the collection
-- Help us grow this resource!
 
 ## License
 
-[Specify your license here - e.g., CC-BY-4.0]
+what license should we use?
 
 ## Contact
 
-[Your contact information here]
-
----
-
-**Last updated**: November 2026
-**Built with**: [Quarto](https://quarto.org/)
+point of contact?

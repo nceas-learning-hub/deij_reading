@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>site_structure – DEIJ Reading List</title>
+<title>site_structure – NCEAS DEIJ Reading Club</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -72,7 +38,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b2d37bab76c8c119fc540bcc77ee2f1f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1991b1be5dcbb25f03deedb7cb618936.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,7 +78,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logos/logo_nceas.svg" alt="DEIJ Reading List Logo" class="navbar-logo">
+    <img src="./images/logo_nceas.svg" alt="NCEAS Logo" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">NCEAS DEIJ Reading Club</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -160,29 +129,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#deij-reading-list---site-structure-guide" id="toc-deij-reading-list---site-structure-guide" class="nav-link active" data-scroll-target="#deij-reading-list---site-structure-guide">DEIJ Reading List - Site Structure Guide</a>
-  <ul class="collapse">
-  <li><a href="#project-layout" id="toc-project-layout" class="nav-link" data-scroll-target="#project-layout">📁 Project Layout</a></li>
-  <li><a href="#styling-design" id="toc-styling-design" class="nav-link" data-scroll-target="#styling-design">🎨 Styling &amp; Design</a></li>
-  <li><a href="#content-pages" id="toc-content-pages" class="nav-link" data-scroll-target="#content-pages">📄 Content Pages</a></li>
-  <li><a href="#building-rendering" id="toc-building-rendering" class="nav-link" data-scroll-target="#building-rendering">🏗️ Building &amp; Rendering</a></li>
-  <li><a href="#adding-new-readings" id="toc-adding-new-readings" class="nav-link" data-scroll-target="#adding-new-readings">➕ Adding New Readings</a></li>
-  <li><a href="#available-categories" id="toc-available-categories" class="nav-link" data-scroll-target="#available-categories">🏷️ Available Categories</a></li>
-  <li><a href="#responsive-design" id="toc-responsive-design" class="nav-link" data-scroll-target="#responsive-design">📱 Responsive Design</a></li>
-  <li><a href="#navigation" id="toc-navigation" class="nav-link" data-scroll-target="#navigation">🔗 Navigation</a></li>
-  <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">🎯 Key Features</a></li>
-  <li><a href="#tips-for-contributors" id="toc-tips-for-contributors" class="nav-link" data-scroll-target="#tips-for-contributors">📚 Tips for Contributors</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -201,16 +150,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 ├── readings.qmd                        # Readings listing page
 │
 ├── readings/                           # Individual reading articles
-│   ├── reading-01-race-representation.qmd
-│   ├── reading-02-gender-stem.qmd
-│   └── reading-03-decolonizing-knowledge.qmd
+│   ├── yyyy-mm-dd_reading_title_1.qmd
+│   ├── yyyy-mm-dd_reading_title_2.qmd
+│   └── yyyy-mm-dd_reading_title_3.qmd
+│   └── images/                         # Images and media
+│       ├── reading1_pic.png            # Cover image for reading 1
+│       ├── reading2_photo.jpg          # Cover image for reading 2
+│       └── image_reading3.png          # Cover image for reading 3
 │
 ├── images/                             # Images and media
-│   ├── logos/
-│   │   └── deij-logo.svg              # Site logo
-│   ├── reading-1.png                   # Cover image for reading 1
-│   ├── reading-2.png                   # Cover image for reading 2
-│   └── reading-3.png                   # Cover image for reading 3
+│   ├── nceas-logo.svg                  # Site logo in banner
+│   └── other_image_for_pages.png       # image to go on one of the pages
 │
 └── docs/                               # Generated HTML (created by Quarto render)
     ├── index.html
@@ -219,130 +169,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         ├── reading-01-*.html
         ├── reading-02-*.html
         └── reading-03-*.html</code></pre>
-</section>
-<section id="styling-design" class="level2">
-<h2 class="anchored" data-anchor-id="styling-design">🎨 Styling &amp; Design</h2>
-<p><strong>Color Palette</strong> (Inspired by NCEAS Learning Hub): - <strong>Primary Dark Green</strong> (#0C4537) - Navigation background - <strong>Primary Medium Green</strong> (#167B62) - Secondary elements, links - <strong>Light Green</strong> (#f3f8f7) - Backgrounds, highlights - <strong>Purple Accent</strong> (#bc40d4) - Interactive elements, hover states - <strong>Cream</strong> (#F4F3EE) - Cards and light backgrounds</p>
-<p><strong>Fonts</strong>: - <strong>Headings</strong>: Figtree (modern, geometric sans-serif) - <strong>Body</strong>: Nunito (readable, friendly sans-serif)</p>
-</section>
-<section id="content-pages" class="level2">
-<h2 class="anchored" data-anchor-id="content-pages">📄 Content Pages</h2>
-<section id="index.qmd-homeabout" class="level3">
-<h3 class="anchored" data-anchor-id="index.qmd-homeabout">index.qmd (Home/About)</h3>
-<ul>
-<li>Welcome message and site overview</li>
-<li>Key themes of the reading list</li>
-<li>Instructions for browsing and using resources</li>
-<li>Call-to-action for contributions</li>
-</ul>
-</section>
-<section id="readings.qmd-readings-listing" class="level3">
-<h3 class="anchored" data-anchor-id="readings.qmd-readings-listing">readings.qmd (Readings Listing)</h3>
-<ul>
-<li>Displays all reading articles in a grid</li>
-<li>Filterable by categories</li>
-<li>Sorted by date (most recent first)</li>
-<li>Includes search functionality</li>
-</ul>
-</section>
-<section id="readings.qmd-individual-articles" class="level3">
-<h3 class="anchored" data-anchor-id="readings.qmd-individual-articles">readings/*.qmd (Individual Articles)</h3>
-<p>Each reading article includes: - <strong>Title</strong>: Clear, descriptive title - <strong>Description</strong>: 1-2 sentence summary - <strong>Image</strong>: Cover image representing the topic - <strong>Categories</strong>: 2-3 tags for filtering and discovery - <strong>Date</strong>: When the reading was added - <strong>Content sections</strong>: - Overview - Key themes - Discussion prompts - Related topics</p>
-</section>
-</section>
-<section id="building-rendering" class="level2">
-<h2 class="anchored" data-anchor-id="building-rendering">🏗️ Building &amp; Rendering</h2>
-<section id="render-the-entire-site" class="level3">
-<h3 class="anchored" data-anchor-id="render-the-entire-site">Render the entire site:</h3>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /Users/caseyohara/github/deij_reading</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="preview-changes-live-reload" class="level3">
-<h3 class="anchored" data-anchor-id="preview-changes-live-reload">Preview changes (live reload):</h3>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="output-location" class="level3">
-<h3 class="anchored" data-anchor-id="output-location">Output location:</h3>
-<ul>
-<li>All HTML files are generated in the <code>docs/</code> folder</li>
-<li>This folder is committed to GitHub and serves the live site</li>
-</ul>
-</section>
-</section>
-<section id="adding-new-readings" class="level2">
-<h2 class="anchored" data-anchor-id="adding-new-readings">➕ Adding New Readings</h2>
-<ol type="1">
-<li><p><strong>Create a new .qmd file</strong> in <code>readings/</code></p>
-<ul>
-<li>Use naming convention: <code>reading-NN-topic-slug.qmd</code></li>
-<li>Replace NN with sequential number</li>
-</ul></li>
-<li><p><strong>Include YAML frontmatter</strong>:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Reading Title"</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"1-2 sentence summary"</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Name or DEIJ Reading List"</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> 2026-11-17</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">categories</span><span class="kw">:</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> Topic Category 1</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> Topic Category 2</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">image</span><span class="kw">:</span><span class="at"> ../images/your-image.png</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p><strong>Add content</strong>:</p>
-<ul>
-<li>Overview section</li>
-<li>Key themes (bulleted)</li>
-<li>Discussion prompts (numbered)</li>
-<li>Related topics</li>
-</ul></li>
-<li><p><strong>Add an image</strong>:</p>
-<ul>
-<li>Create a 6x4 aspect ratio image (e.g., 600x400 or 1200x800)</li>
-<li>Save to <code>images/</code> folder</li>
-<li>Reference in YAML frontmatter</li>
-</ul></li>
-<li><p><strong>Render</strong>:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-</ol>
-</section>
-<section id="available-categories" class="level2">
-<h2 class="anchored" data-anchor-id="available-categories">🏷️ Available Categories</h2>
-<p>Current reading categories used: - Race &amp; Ethnicity - Gender &amp; Sexuality - Representation - STEM Education - Workplace Culture - Indigenous Knowledge Systems - Environmental Science - Decolonization - Accessibility - General/Interdisciplinary</p>
-<p>Feel free to add new categories as needed!</p>
-</section>
-<section id="responsive-design" class="level2">
-<h2 class="anchored" data-anchor-id="responsive-design">📱 Responsive Design</h2>
-<p>The site is fully responsive and works on: - Desktop browsers - Tablets - Mobile phones</p>
-<p>The grid layout automatically adjusts for smaller screens.</p>
-</section>
-<section id="navigation" class="level2">
-<h2 class="anchored" data-anchor-id="navigation">🔗 Navigation</h2>
-<p><strong>Navbar links</strong> (defined in _quarto.yml): - Home - Readings (listing page) - About (submenu) - GitHub (external link)</p>
-<p><strong>Site footer</strong>: - Copyright notice - Built with Quarto</p>
-</section>
-<section id="key-features" class="level2">
-<h2 class="anchored" data-anchor-id="key-features">🎯 Key Features</h2>
-<p>✅ Responsive grid layout for reading cards<br>
-✅ Filterable by category tags<br>
-✅ Searchable content<br>
-✅ Modern, accessible color scheme<br>
-✅ Clean typography with Figtree + Nunito<br>
-✅ Easy to extend with new readings<br>
-✅ Built-in SEO optimization<br>
-✅ Static site (no backend required)</p>
-</section>
-<section id="tips-for-contributors" class="level2">
-<h2 class="anchored" data-anchor-id="tips-for-contributors">📚 Tips for Contributors</h2>
-<ul>
-<li>Keep descriptions concise and engaging</li>
-<li>Use discussion prompts to encourage reflection</li>
-<li>Include 3-5 key themes per reading</li>
-<li>Link related readings when relevant</li>
-<li>Use meaningful image alt-text for accessibility</li>
-<li>Keep reading dates current</li>
-</ul>
-<hr>
-<p><strong>Last Updated</strong>: November 2026 <strong>Built with</strong>: Quarto + Custom SCSS</p>
 
 
 </section>

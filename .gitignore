@@ -1,6 +1,5 @@
 # Quarto
 .quarto/
-docs/
 _freeze/
 *.nb.html
 

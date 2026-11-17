@@ -1,0 +1,22 @@
+# Quarto
+.quarto/
+docs/
+_freeze/
+*.nb.html
+
+# IDE
+.Rproj.user/
+*.Rproj
+.vscode/
+.DS_Store
+
+# Cache
+.cache/
+*.rds
+
+/.quarto/
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+.quarto

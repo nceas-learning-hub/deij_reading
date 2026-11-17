@@ -1,0 +1,268 @@
+/*-- scss:defaults --*/
+
+// Import fonts from Google Fonts
+// Using Figtree (from lh_packages) for a modern look with Nunito for readability
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+// fonts
+$figtree: 'Figtree', sans-serif;
+$nunito: 'Nunito', sans-serif;
+
+// Learning Hub inspired color palette - greens, teals, purples
+$lh-grn-4: #0C4537;  // dark green for navbar
+$lh-grn-3: #167B62;  // medium green
+$lh-grn-2: #a1cac0;  // light green
+$lh-grn-1: #f3f8f7;  // very light green
+$lh-pur-3: #bc40d4;  // purple for accents
+$lh-pur-1: #fae4ff;  // light purple
+$lh-cream: #F4F3EE;  // cream background
+$lh-gray-2: #8A817C; // medium gray text
+$lh-gray-3: #222823; // dark gray text
+$lh-black:  #08090A; // black
+
+// Base document colors
+$navbar-bg: $lh-grn-4;
+$navbar-fg: $lh-cream;
+$navbar-hl: $lh-grn-3;
+$body-bg: white;
+$body-color: $lh-gray-3;
+$footer-bg: $lh-grn-4;
+$link-color: $lh-pur-3;
+
+// Inline code
+$code-bg: $lh-grn-1;
+$code-color: $lh-pur-3;
+
+// Code blocks
+$code-block-bg: $lh-grn-1;
+
+/*-- scss:rules --*/
+
+/* ELEMENT SELECTORS */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $figtree;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  color: $lh-gray-3;
+}
+
+body {
+  font-family: $nunito;
+  line-height: 1.6;
+  font-size: 18px;
+  font-weight: 400;
+  color: $lh-gray-3;
+}
+
+// modify blockquote styling
+blockquote {
+  margin: 0 0 1rem;
+  padding: 0.625rem 1.25rem;
+  border-left: 0.25rem solid $lh-grn-3;
+}
+
+a {
+  text-decoration: none;
+  color: $lh-pur-3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+// banner titles
+.quarto-title-banner h1 {
+  color: $lh-gray-3;
+}
+
+// banner subtitle
+.quarto-title-banner .subtitle {
+  color: $lh-gray-2;
+}
+
+.quarto-title-banner {
+  background-color: $lh-grn-1;
+}
+
+// figure caption text styling
+.figure-caption {
+  color: $lh-gray-2;
+  font-style: italic;
+}
+
+// blockquote text styling
+.blockquote {
+  color: $lh-gray-2;
+}
+
+// larger text
+.large-text {
+  font-size: 24px;
+}
+
+// slightly smaller than default text
+.small-text {
+  font-size: 16px;
+}
+
+// smallest text
+.extra-small-text {
+  font-size: 13px;
+}
+
+// extra space above line of text
+.topbr {
+  display: block;
+  margin-top: 1em;
+}
+
+// center align text
+.center-text {
+  text-align: center;
+}
+
+// right-align text
+.right-align-text {
+  text-align: right;
+}
+
+// dark gray text
+.dark-gray-text {
+  color: $lh-gray-2;
+}
+
+// gray-italic text
+.gray-italic {
+  color: $lh-gray-2;
+  font-style: italic;
+  font-size: 16px;
+}
+
+// light background callout
+.light-bg {
+  background-color: rgba($lh-grn-1, 0.6);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+// btn styling
+.btn {
+  color: $lh-gray-3;
+  background-color: $lh-grn-1;
+  border-color: $lh-grn-3;
+}
+
+// button hover styling
+.btn:hover {
+  color: $lh-cream;
+  background-color: $lh-pur-3;
+  border-color: $lh-pur-3;
+}
+
+// image styling
+.img-styling {
+  border-radius: 8px;
+  border: 2px solid $lh-grn-2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+// center image only
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CLASS SELECTORS */
+
+// resize logo (top left corner)
+.navbar-brand img {
+  max-height: 50px;
+  width: auto;
+}
+
+// button text size
+.about-link-text {
+  font-size: 17px;
+}
+
+// button icon size
+.bi {
+  font-size: 18px;
+}
+
+// dropdown navbar text color
+.dropdown-item {
+  color: $lh-gray-3;
+  background-color: $lh-cream;
+}
+
+.dropdown-item:hover {
+  background-color: $lh-grn-1;
+  color: $lh-pur-3;
+}
+
+// listing card styling
+.card {
+  background-color: $lh-cream;
+  border: 1px solid $lh-grn-2;
+  border-radius: 8px;
+}
+
+.callout.callout-style-default .callout-body {
+  background-color: $lh-grn-1;
+}
+
+// listing description text styling
+.description {
+  font-size: 18px;
+}
+
+// animate logo on hover
+.navbar-logo {
+  transition: all 0.3s;
+}
+
+.navbar-logo:hover {
+  transform: translateY(-3px);
+}
+
+// listing page item category hover color
+.quarto-grid-item .listing-categories .listing-category:hover {
+  color: $lh-pur-3;
+  border-color: $lh-pur-3;
+}
+
+// listing page "Categories" selection color
+.quarto-listing-category .category.active {
+  color: $lh-pur-3;
+}
+
+// panel-tabset styling
+.panel-tabset .tab-content {
+  background-color: $lh-grn-1;
+  padding: 1em;
+}
+
+.panel-tabset .nav-tabs .nav-link {
+  background-color: $lh-cream;
+  color: $lh-gray-3;
+}
+
+.panel-tabset .nav-tabs .nav-link.active {
+  background-color: $lh-pur-3;
+  color: white;
+}
+
+// footer text color
+.quarto-page-footer {
+  color: $lh-cream;
+}
+
+.quarto-page-footer a {
+  color: $lh-grn-2;
+}

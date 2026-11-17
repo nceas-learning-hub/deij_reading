@@ -1,0 +1,15 @@
+---
+title: "DEIJ Reading Club"
+subtitle: "Curated resources on diversity, equity, inclusion, and justice in conservation science"
+title-block-banner: true
+---
+
+## Welcome
+
+This reading list is a curated collection of resources focused on diversity, equity, inclusion, and justice (DEIJ) in science, academia, and professional spaces. The goal is to provide accessible, thoughtful, and practical readings that can help individuals and communities engage critically with these important topics.
+
+## Contributing
+
+Have a reading you'd like to suggest? We welcome contributions! Please reach out with recommendations for articles, books, or other resources that would fit this collection.
+
+---

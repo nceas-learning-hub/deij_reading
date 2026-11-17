@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "NCEAS DEIJ Reading Club"
+  site-url: https://your-username.github.io/deij_reading/
+  navbar:
+    title: NCEAS DEIJ Reading Club
+    logo: images/logo_nceas.svg
+    logo-alt: "NCEAS Logo"
+    right:
+      - href: index.qmd
+        text: home
+      - href: readings.qmd
+        text: readings
+      - text: about
+        menu:
+          - text: "About This Site"
+            href: "https://www.example.com"
+          - text: "Contact"
+            href: "mailto:your-email@example.com"
+      - icon: github
+        href: https://github.com/your-username/deij_reading
+        target: _blank
+  page-footer:
+    background: light
+    left: "© 2026 NCEAS"
+    right: "Built with [Quarto](https://quarto.org/){target=_blank}"
+
+format:
+  html:
+    page-layout: full
+    sidebar: false
+    theme:
+      - styles.scss
+    mainfont: Nunito
+    toc: false
+    toc-depth: 2
